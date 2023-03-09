@@ -7,8 +7,6 @@ import Insta from './assets/icons8-instagram.svg';
 import Linked from './assets/icons8-linkedin-2.svg';
 import Mail from './assets/icons8-mail.svg';
 import Twitter from './assets/icons8-twitter.svg';
-import PrivacyPolicy from './assets/Privacy policy.pdf';
-import TermsOfUse from './assets/Terms of use.pdf';
 //------------------------------------------------------------------
 import './style.scss';
 
