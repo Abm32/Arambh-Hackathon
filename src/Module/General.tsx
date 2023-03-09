@@ -53,8 +53,8 @@ const SOCIALS = {
   eventwb: 'https://www.linkedin.com/company/limbo-hacks/',
   twitter: 'https://twitter.com/HacksLimbo',
   devpost: 'https://limbo-hacks-12968.devpost.com/',
-  email: 'mailto:hello@limbohacks.tech',
-  mail: 'hello@limbohacks.tech'
+  email: 'Iedccek+hackathon@gmail.com',
+  mail: 'Iedccek+hackathon@gmail.com'
 };
 
 const MIDDLE_SECTION = {
@@ -392,3 +392,4 @@ export {
   schedule,
   calenderStartingDate
 };
+
