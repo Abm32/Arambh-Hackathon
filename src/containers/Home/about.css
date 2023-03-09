@@ -14,6 +14,13 @@
   margin-left: 640px;
   padding: 20px;
 }
+.nw{
+  background-size: auto 100vh;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+}
 .mediaInfo {
   margin-top: 10vh;
   background-size: auto 100vh;
