@@ -3,9 +3,7 @@ import { FOOTER, SOCIALS, TOP_SECTION } from '../../Module/General';
 import { Btn } from '../Landing/index.jsx';
 import cross from './assets/cross.svg';
 import Insta from './assets/icons8-instagram.svg';
-import Insta from './assets/icons8-instagram.svg';
 import Mail from './assets/icons8-mail.svg';
-import './style.scss';
 import './style.scss';
 const GithubTemplate = ({hideTemplate}) => {
   return (
