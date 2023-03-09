@@ -153,17 +153,11 @@ export default function HomePage() {
         {TeamInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
 
-        {/* ********Judges here ***** */}
+        {/* ********Judges here {JudgesInfo.map(TeamMembers)}***** */}
 
         <h1 id="team">Judges</h1>
-        {FOOTER.JOIN_TEAM.required && (
-          <JoinTeam
-            placeholder="Join our team"
-            formLink={TOP_SECTION.JUDGES_FORM_LINK}
-            content="Interested in being judge"
-          />
-        )}
-        {JudgesInfo.map(TeamMembers)}
+        <p class="neww">To be disclosed...</p>
+        
         {/* ********Team ending here ***** */}
       </Container>
       <Footer />

@@ -5,6 +5,15 @@
   font-family: 'Montserrat', sans-serif;
   position: relative;
 }
+.neww {
+  background-size: auto 100vh;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  margin-left: 640px;
+  padding: 20px;
+}
 .mediaInfo {
   margin-top: 10vh;
   background-size: auto 100vh;

@@ -9,7 +9,7 @@ function SponsorsHead() {
 function Sponsor(props) {
   return (
     <div className="Sponsor ">
-      <img src={props.srcx} alt="Limbo hacks"></img>
+      <img src={props.srcx} alt="Arambh Hackathon"></img>
     </div>
   );
 }
@@ -17,7 +17,7 @@ function Sponsor(props) {
 function SponsorUS() {
   return (
     <div className="joinT sponsorUS">
-      <h3>Coming soon... </h3>
+      <h3>To be disclosed... </h3>
       <a href={SOCIALS.email}>
         <Btn className="sponsor_btn" type="Sponsor us" overlay="Send a mail" />
       </a>{' '}
