@@ -38,7 +38,7 @@ const TOP_SECTION = {
   Typed_effect: ['24 hours of creation', 'Win awesome prizes'],
   
   SHORT_DESCRIPTION:
-    'Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.',
+    'Join us on 1-2 April 2023 for the Arambh Hackathon, where you can collaborate with other fellow hackers and engage in 24 hours of creation, innovation, and fun.',
   IMG_SRC: boy,
   DISCORD_LINK: '',
   JUDGES_FORM_LINK:
@@ -48,11 +48,8 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: 'https://www.instagram.com/limbohacks/',
-  discord: 'https://discord.com/invite/8XJSzmtWPp',
+  instagram: 'https://www.instagram.com/iedc_cek/',
   eventwb: 'https://www.linkedin.com/company/limbo-hacks/',
-  twitter: 'https://twitter.com/HacksLimbo',
-  devpost: 'https://limbo-hacks-12968.devpost.com/',
   email: 'Iedccek+hackathon@gmail.com',
   mail: 'Iedccek+hackathon@gmail.com'
 };
@@ -60,7 +57,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: 'What is Arambh Hackathon?',
   LONG_DESCRIPTION:
-    'Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
+    'Arambh Hackathon, taking place on April 1-2, 2023, invites hackers, artists, coders, designers, tech enthusiasts, creatives, and developers from all backgrounds to join and compete for exciting prizes while collaborating with fellow participants. The event will provide a unique opportunity to learn from one another and experiment with new technologies, and aims to create an inclusive and diverse community of attendees.',
   LOGO: hackathonLogo
 };
 
@@ -100,18 +97,18 @@ const schedule = [
     day: '1-4-2023',
     events: [
       {
-        title: 'Intro to phycycology',
-        timings: '12 AM - 1 Pm',
+        title: 'Arambh Hackathon',
+        timings: 'Starts from 10.30 AM',
         link: 'https://google.com'
       }
     ]
   },
   {
-    day: '5-4-2023',
+    day: '2-4-2023',
     events: [
       {
-        title: 'Intro to deep learning',
-        timings: '12 AM - 1 Pm',
+        title: 'Arambh Hackathon',
+        timings: 'Ends at',
         link: 'https://google.com'
       },
       {
@@ -132,7 +129,7 @@ const schedule = [
     ]
   },
   {
-    day: '2-4-2023',
+    day: '4-4-2023',
     events: [
       {
         title: 'Intro to deep learning',
@@ -142,7 +139,7 @@ const schedule = [
     ]
   },
   {
-    day: '1-1-2023',
+    day: '5-4-2023',
     events: [
       {
         title: 'Intro to phycycology',
@@ -392,4 +389,3 @@ export {
   schedule,
   calenderStartingDate
 };
-
