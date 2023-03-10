@@ -49,7 +49,7 @@ const TOP_SECTION = {
 
 const SOCIALS = {
   instagram: 'https://www.instagram.com/iedc_cek/',
-  eventwb: 'https://www.linkedin.com/company/limbo-hacks/',
+  eventwb: 'https://arambh.iedccek.com/',
   email: 'Iedccek+hackathon@gmail.com',
   mail: 'Iedccek+hackathon@gmail.com'
 };
@@ -108,7 +108,7 @@ const schedule = [
     events: [
       {
         title: 'Arambh Hackathon',
-        timings: 'Ends at',
+        timings: 'Ends at 10.30 AM',
         link: 'https://google.com'
       },
       
