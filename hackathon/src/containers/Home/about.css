@@ -5,21 +5,24 @@
   font-family: 'Montserrat', sans-serif;
   position: relative;
 }
-.neww {
-  background-size: auto 100vh;
-  font-family: 'Montserrat', sans-serif;
-  position: relative;
-  display: inline-block;
-  font-weight: 500;
-  margin-left: 640px;
-  padding: 20px;
+.sty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.nw{
-  background-size: auto 100vh;
-  font-family: 'Montserrat', sans-serif;
-  position: relative;
-  display: inline-block;
+.neww {
+  text-align: center;
   font-weight: 500;
+  font-size: 2rem;
+}
+.nw {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 2rem;
 }
 .mediaInfo {
   margin-top: 10vh;

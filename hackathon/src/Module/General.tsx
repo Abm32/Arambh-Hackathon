@@ -111,43 +111,10 @@ const schedule = [
         timings: 'Ends at',
         link: 'https://google.com'
       },
-      {
-        title: 'Intro to deep learning',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
+      
     ]
   },
-  {
-    day: '3-4-2023',
-    events: [
-      {
-        title: 'Intro to phycycology',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
-    ]
-  },
-  {
-    day: '4-4-2023',
-    events: [
-      {
-        title: 'Intro to deep learning',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
-    ]
-  },
-  {
-    day: '5-4-2023',
-    events: [
-      {
-        title: 'Intro to phycycology',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
-    ]
-  }
+  
 ];
 
 /** ICON
@@ -361,7 +328,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'I have more questions?',
         content:
-          'Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you.'
+          'Reach us directly at (Iedccek+hackathon@gmail.com) we would happy to help you.'
       },
       {
         label: 'I am a beginner. Can I still participate in the Hackathon?',

@@ -1,23 +1,29 @@
-import { UseMedia } from 'hooks/useMedia';
-import { useState } from 'react';
+import {UseMedia} from 'hooks/useMedia';
+import {useState} from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import { Logo, LogoSectionAbout } from '../../components/About/index.jsx';
-import { Accordion } from '../../components/Accordian/index.jsx';
+import {Logo, LogoSectionAbout} from '../../components/About/index.jsx';
+import {Accordion} from '../../components/Accordian/index.jsx';
 import Birds from '../../components/Animation';
 import Footer from '../../components/Footer/index.jsx';
-import { Myinfo } from '../../components/Landing/index.jsx';
-import { FirstPrize, PrizeHeading } from '../../components/Prizes/index.jsx';
+import {Myinfo} from '../../components/Landing/index.jsx';
+import {FirstPrize, PrizeHeading} from '../../components/Prizes/index.jsx';
 import Media from '../../components/Socials/index.jsx';
 import {
   Sponsor,
   SponsorsHead,
   SponsorUS
 } from '../../components/Sponsors/sponsors.jsx';
-import { Member } from '../../components/Team';
+import {JoinTeam, Member} from '../../components/Team';
 import {
-  frequentlyAskedQuestions, TeamInfo
+  FOOTER,
+  frequentlyAskedQuestions,
+  JudgesInfo,
+  Prizeinfo,
+  sponsorLogos,
+  TeamInfo,
+  TOP_SECTION
 } from '../../Module/General';
 import MyCalender from '../calender';
 import './about.css';
@@ -121,8 +127,11 @@ export default function HomePage() {
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
+          <div class="sty">
           <PrizeHeading type="Prize section" />
+          </div>
           <p class="nw">To be disclosed...</p>
+          
         </Row>
         {/* ********Prizes ending here ***** */}
 
@@ -150,7 +159,7 @@ export default function HomePage() {
         {/* ********Judges here {JudgesInfo.map(TeamMembers)}***** */}
 
         <h1 id="team">Judges</h1>
-        <p class="neww">To be disclosed...</p>
+        <p class="neww">To be disclosed..</p>
         
         {/* ********Team ending here ***** */}
       </Container>

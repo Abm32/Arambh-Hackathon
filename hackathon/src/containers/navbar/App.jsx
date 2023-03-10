@@ -92,6 +92,7 @@ const NAVBAR = ({}) => {
   }, []);
 
   return (
+    <div>
     <Router>
       <nav className={`nav_bar ${isOffset && 'nav_bar-offset-crossed'}`}>
         <Wrapper toggle={toggle}>
@@ -143,6 +144,7 @@ const NAVBAR = ({}) => {
         <Route path="/" exact={true} element={<HomePage />}></Route>
       </Routes>
     </Router>
+    </div>
   );
 };
 
