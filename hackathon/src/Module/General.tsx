@@ -42,9 +42,9 @@ const TOP_SECTION = {
   IMG_SRC: boy,
   DISCORD_LINK: '',
   JUDGES_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u',
+    'https://forms.gle/WHNwvTqyF6K6JDjr8',
   HACKERS_REGISTRATION_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u'
+    '#home'
 };
 
 const SOCIALS = {
@@ -64,11 +64,11 @@ const MIDDLE_SECTION = {
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u'
+    src: '#'
   },
   JOIN_TEAM: {
     required: true,
-    src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u'
+    src: '#'
   },
   Privacy_policy: {
     required: true,
@@ -195,42 +195,18 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
+      Name: 'Abhiram N J',
       role: 'Organizer',
       github: 'https://github.com/Limbo-Hacks/Hackathon-website-template',
-      linkedin: '',
+      linkedin: 'https://github.com/twilighty-abhi',
       img: me
     },
     {
-      Name: 'Moon',
+      Name: 'Anand S',
       role: 'Organizer',
-      github: '',
-      linkedin: '',
+      github: 'https://github.com/AnandSuresh02',
+      linkedin: 'https://www.linkedin.com/in/anand-s-41311a235/',
       img: moon
-    },
-    {
-      Name: 'Erika',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: Ryah
-    }
-  ],
-  [
-    //Array 2
-    {
-      Name: 'Lyanola',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: lyin
-    },
-    {
-      Name: 'Zoheb',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: zoha
     }
   ]
 ];
@@ -316,7 +292,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'How team formation works?',
         content:
-          "You can form team with 2 - 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+          "You can form team with 2 - 4 members in it at maximum."
       }
     ],
     [
