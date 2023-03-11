@@ -50,8 +50,8 @@ const TOP_SECTION = {
 const SOCIALS = {
   instagram: 'https://www.instagram.com/iedc_cek/',
   eventwb: 'https://arambh.iedccek.com/',
-  email: 'Iedccek+hackathon@gmail.com',
-  mail: 'Iedccek+hackathon@gmail.com'
+  email: "mailto:Iedccek+hackathon@gmail.com",
+  mailid: 'Iedccek+hackathon@gmail.com'
 };
 
 const MIDDLE_SECTION = {

@@ -61,7 +61,7 @@ const Footer = () => {
           <p>
             Contact us{' '}
             <a href={SOCIALS.email}>
-              <em>{SOCIALS.mail}</em>
+              <em>{SOCIALS.mailid}</em>
             </a>{' '}
           </p>
 
