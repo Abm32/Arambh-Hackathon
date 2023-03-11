@@ -151,9 +151,12 @@ export default function HomePage() {
         {/* ********Prizes ending here ***** */}
 
         {/* ********Rules here ***** */}
-        <Row className="prizesection" id="prizes">
+        <Row className="prizesection" id="rules">
+          <div class="sty">
           <RuleHeading type="Rules" />
+          </div>
           {Rulesinfo.map(RulesGroup)}
+          
         </Row>
         {/* ********Rules ending here ***** */}
 
