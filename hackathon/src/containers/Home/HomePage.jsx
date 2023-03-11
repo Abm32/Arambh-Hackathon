@@ -138,7 +138,15 @@ export default function HomePage() {
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
 
-        
+        {/* ********Rules here ***** */}
+        <Row className="prizesection" id="rules">
+          <div class="sty">
+          <RuleHeading type="Rules" />
+          </div>
+          {Rulesinfo.map(RulesGroup)}
+          
+        </Row>
+        {/* ********Rules ending here ***** */}
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
@@ -150,15 +158,7 @@ export default function HomePage() {
         </Row>
         {/* ********Prizes ending here ***** */}
 
-        {/* ********Rules here ***** */}
-        <Row className="prizesection" id="rules">
-          <div class="sty">
-          <RuleHeading type="Rules" />
-          </div>
-          {Rulesinfo.map(RulesGroup)}
-          
-        </Row>
-        {/* ********Rules ending here ***** */}
+        
 
         {/* ********Sponsors here  {sponsorLogos.map(SponsorGroup)} ***** */}
 

@@ -63,7 +63,7 @@ const Footer = () => {
           </p>
           <p>
             Email Id : <a href={SOCIALS.email}>
-              <em>{SOCIALS.mail}</em>
+              <em>{SOCIALS.mailid}</em>
             </a>{' '}
           </p>
           <p>Abhiram N J : +91 9497704406</p>
