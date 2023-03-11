@@ -162,9 +162,12 @@
 	
 }
 
-@media  (max-width: 570px){
+@media  (max-width: 573px){
 
 	.container {
 		display: none;
+	}
+	.bird-container {
+		display: flex;
 	}
 }

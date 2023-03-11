@@ -140,7 +140,7 @@ export default function HomePage() {
         </div>
 
         {/* ********Rules here ***** */}
-        <Row className="prizesection" id="rules">
+        <Row className="rulesection" id="rules">
           <div class="sty">
           <RuleHeading type="Rules" />
           </div>
@@ -176,7 +176,7 @@ export default function HomePage() {
         </Row>
         {/* ********Sponsors ending here ***** */}
 
-        {media && <Birds className="birds" top="120vh" left="0vh" type="" />}
+        {media && <Birds top="120vh" left="0vh" type="" />}
 
         {/* ********Team here ***** */}
         <h1 id="team">Our Team</h1>

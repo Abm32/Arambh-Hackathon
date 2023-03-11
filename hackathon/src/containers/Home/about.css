@@ -69,12 +69,22 @@ h1 {
   margin-bottom: 3vh;
 }
 .members {
+
   padding: 0vh 10vh 0 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-left: 29%;
+  
 }
 .prizesection {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 4vh 0 4vh;
+  margin: 17vh 0vh 0 0vh;
+  border-radius: 14px;
+  margin-top: 4vh;
+  background-color: #f3effe;
+}
+
+.rulesection {
   text-align: center;
   margin: 0 auto;
   padding: 0 4vh 0 4vh;
@@ -100,16 +110,12 @@ h1 {
   margin-top: -16vh;
 }
 
-@media (max-width: 570px) {
+@media (max-width: 573px) {
   .mediaInfo {
     margin-top: 0;
   }
   .Whole_div {
     background-size: auto 100vh;
-  }
-  .birds{
-    margin: 0;
-    padding: 0;
   }
   .faqsSection {
     padding: 0;
@@ -118,9 +124,13 @@ h1 {
   .members {
     margin: 0;
     padding: 0;
+    
   }
-
   .prizesection {
+    margin: 5vh 0 0 0;
+    padding: 17vh 0 0 4vh;
+  }
+  .rulesection {
     margin: 5vh 0 0 0;
     padding: 17vh 0 0 4vh;
   }

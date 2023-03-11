@@ -107,7 +107,7 @@ button:hover .overlay {
 
 /* main targer */
 
-@media (max-width: 570px) {
+@media (max-width: 573px) {
   .Myinfo p {
     width: 100%;
   }
