@@ -299,7 +299,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'How to register myself in the hackathon?',
         content:
-          'All you need is to fill our form above and join Discord, we will guide you through everything there'
+          'All you need to do is to fill our form above and we will get you through everything remaining.'
       },
       {
         label: 'I have more questions?',

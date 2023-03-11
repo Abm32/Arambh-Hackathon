@@ -60,13 +60,24 @@ const Footer = () => {
         <div className="footer_info">
           <p>
             Contact us{' '}
-            <a href={SOCIALS.email}>
-              <em>{SOCIALS.mailid}</em>
-            </a>{' '}
           </p>
-
+          <div class="contactmain">
+            <div class="contact1"></div>
+            <div class="contact">
+            <p>
+              Email : <a href={SOCIALS.email}>
+                <em>{SOCIALS.mailid}</em>
+              </a>{' '}
+            </p>
+            <p>Abhiram N J : +91 9497704406</p>
+            <p>Anand S : +91 8157906089</p>
+            </div>
+            <div class="contact3"></div>
+          </div>
           
-          <p>Made with ❤️</p>
+          <p>Made with ❤️ by IEDC CEK</p>
+          
+      
         </div>
       </div>
     </div>
