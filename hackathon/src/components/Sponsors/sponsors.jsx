@@ -25,4 +25,14 @@ function SponsorUS() {
   );
 }
 
-export {SponsorsHead, Sponsor, SponsorUS};
+function Sponsorbtn() {
+  return (
+    <div className="joinT sponsorUS">
+        <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
+          <Btn className="sponsor_btn" type="Register" overlay="Fill the form" />
+        </a>{' '}
+    </div>
+  );
+}
+
+export {SponsorsHead, Sponsor, SponsorUS, Sponsorbtn};

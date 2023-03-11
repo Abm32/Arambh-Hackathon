@@ -34,6 +34,8 @@
 }
 @media (max-width: 570px) {
   .member {
+    justify-content: center;
+    align-items: center;
     margin-top: 4rem;
   }
   .member img {

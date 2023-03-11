@@ -219,8 +219,8 @@ const TeamInfo = [
     {
       name: 'Abhiram N J',
       role: 'Organizer',
-      github: 'https://github.com/Limbo-Hacks/Hackathon-website-template',
-      linkedin: 'https://github.com/twilighty-abhi',
+      github: 'https://github.com/twilighty-abhi',
+      linkedin: 'https://www.linkedin.com/in/abhiram-n-j/',
       img: me
     },
     {

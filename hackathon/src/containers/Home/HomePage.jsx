@@ -14,7 +14,8 @@ import Media from '../../components/Socials/index.jsx';
 import {
   Sponsor,
   SponsorsHead,
-  SponsorUS
+  SponsorUS,
+  Sponsorbtn
 } from '../../components/Sponsors/sponsors.jsx';
 import {JoinTeam, Member} from '../../components/Team';
 import {
@@ -148,6 +149,10 @@ export default function HomePage() {
         </Row>
         {/* ********Rules ending here ***** */}
 
+        <Row className="sponsorSection" id="">
+          <Sponsorbtn />
+        </Row>
+
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
           <div class="sty">
@@ -171,7 +176,7 @@ export default function HomePage() {
         </Row>
         {/* ********Sponsors ending here ***** */}
 
-        {media && <Birds top="120vh" left="0vh" type="" />}
+        {media && <Birds className="birds" top="120vh" left="0vh" type="" />}
 
         {/* ********Team here ***** */}
         <h1 id="team">Our Team</h1>

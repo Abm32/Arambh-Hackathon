@@ -70,6 +70,9 @@ h1 {
 }
 .members {
   padding: 0vh 10vh 0 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .prizesection {
   text-align: center;
@@ -104,7 +107,10 @@ h1 {
   .Whole_div {
     background-size: auto 100vh;
   }
-
+  .birds{
+    margin: 0;
+    padding: 0;
+  }
   .faqsSection {
     padding: 0;
     margin-top: 0vh;
