@@ -195,14 +195,14 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: 'Abhiram N J',
+      name: 'Abhiram N J',
       role: 'Organizer',
       github: 'https://github.com/Limbo-Hacks/Hackathon-website-template',
       linkedin: 'https://github.com/twilighty-abhi',
       img: me
     },
     {
-      Name: 'Anand S',
+      name: 'Anand S',
       role: 'Organizer',
       github: 'https://github.com/AnandSuresh02',
       linkedin: 'https://www.linkedin.com/in/anand-s-41311a235/',
