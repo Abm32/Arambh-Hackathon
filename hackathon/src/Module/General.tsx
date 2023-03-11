@@ -185,6 +185,28 @@ const Prizeinfo = [
   ]
 ];
 
+const Rulesinfo = [
+  [
+    //Array 1
+    {
+      
+      content:
+        '1.'
+    },
+    {
+    
+      content:
+        '2.'
+    },
+    {
+
+      content:
+        '3.'
+    }
+  ],
+  
+];
+
 /** Instructions
  * Insert only 3 or less then 3 members per array in `TeamInfo`, you can
  * create as many arrays you want all team members will be rendered
@@ -325,6 +347,7 @@ export {
   SOCIALS,
   FOOTER,
   Prizeinfo,
+  Rulesinfo,
   sponsorLogos,
   TeamInfo,
   JudgesInfo,

@@ -9,6 +9,7 @@ import Birds from '../../components/Animation';
 import Footer from '../../components/Footer/index.jsx';
 import {Myinfo} from '../../components/Landing/index.jsx';
 import {FirstPrize, PrizeHeading} from '../../components/Prizes/index.jsx';
+import {Rules, RuleHeading} from '../../components/Rules/index.jsx';
 import Media from '../../components/Socials/index.jsx';
 import {
   Sponsor,
@@ -21,6 +22,7 @@ import {
   frequentlyAskedQuestions,
   JudgesInfo,
   Prizeinfo,
+  Rulesinfo,
   sponsorLogos,
   TeamInfo,
   TOP_SECTION
@@ -51,6 +53,19 @@ const PrizeGroup = (props, index) => {
         <Col key={i} className="" sm={12} lg={4} md={4}>
           <FirstPrize icon={s.icon} type={s.type} content={s.content} />
         </Col>
+      ))}
+    </Row>
+  );
+};
+
+//Rules group
+const RulesGroup = (props, index) => {
+  return (
+    <Row key={index}>
+      {props.map((s, i) => (
+        <Row key={i} className="" sm={12} lg={4} md={4}>
+          <Rules content={s.content} />
+        </Row>
       ))}
     </Row>
   );
@@ -135,7 +150,12 @@ export default function HomePage() {
         </Row>
         {/* ********Prizes ending here ***** */}
 
-      
+        {/* ********Rules here ***** */}
+        <Row className="prizesection" id="prizes">
+          <RuleHeading type="Rules" />
+          {Rulesinfo.map(RulesGroup)}
+        </Row>
+        {/* ********Rules ending here ***** */}
 
         {/* ********Sponsors here  {sponsorLogos.map(SponsorGroup)} ***** */}
 
