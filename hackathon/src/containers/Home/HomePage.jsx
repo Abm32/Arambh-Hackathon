@@ -10,6 +10,7 @@ import Footer from '../../components/Footer/index.jsx';
 import {Myinfo} from '../../components/Landing/index.jsx';
 import {FirstPrize, PrizeHeading} from '../../components/Prizes/index.jsx';
 import {Rules, RuleHeading} from '../../components/Rules/index.jsx';
+import {Tracks, TrackHeading} from '../../components/Tracks/index.jsx';
 import Media from '../../components/Socials/index.jsx';
 import {
   Sponsor,
@@ -23,6 +24,8 @@ import {
   frequentlyAskedQuestions,
   JudgesInfo,
   Prizeinfo,
+  Trackinfo,
+  Tracksinfo,
   Rulesinfo,
   sponsorLogos,
   TeamInfo,
@@ -53,6 +56,19 @@ const PrizeGroup = (props, index) => {
       {props.map((s, i) => (
         <Col key={i} className="" sm={12} lg={4} md={4}>
           <FirstPrize icon={s.icon} type={s.type} content={s.content} />
+        </Col>
+      ))}
+    </Row>
+  );
+};
+
+// Track group
+const TrackGroup = (props, index) => {
+  return (
+    <Row key={index}>
+      {props.map((s, i) => (
+        <Col key={i} className="" sm={12} lg={4} md={4}>
+          <Tracks icon={s.icon} type={s.type} content={s.content} />
         </Col>
       ))}
     </Row>
@@ -138,6 +154,15 @@ export default function HomePage() {
           {frequentlyAskedQuestions.map(FrequentlyAsked)}
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
+
+        {/* ********Tracks here ***** */}
+        <Row className="tracksection" id="tracks">
+          <TrackHeading type="Tracks" />
+          {Trackinfo.map(TrackGroup)}
+        </Row>
+        <Row className="tracksection" id="tracks">
+          {Tracksinfo.map(TrackGroup)}
+        </Row>
 
         {/* ********Rules here ***** */}
         <Row className="rulesection" id="rules">
