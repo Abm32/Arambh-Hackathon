@@ -159,8 +159,6 @@ export default function HomePage() {
         <Row className="tracksection" id="tracks">
           <TrackHeading type="Tracks" />
           {Trackinfo.map(TrackGroup)}
-        </Row>
-        <Row className="tracksection" id="tracks">
           {Tracksinfo.map(TrackGroup)}
         </Row>
 

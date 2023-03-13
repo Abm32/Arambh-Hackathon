@@ -192,13 +192,13 @@ const Trackinfo = [
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: 'Track1',
       content:
-        'First Overall prize will be given to a project that outstands all other submissions'
+        ''
     },
     {
       icon: <i className=" second fas fa-4x fa-medal"></i>,
       type: 'Track2',
       content:
-        'Second Overall prize will be given to the second best project of the hackathon'
+        ''
     },
   ],
 ];
@@ -210,13 +210,13 @@ const Tracksinfo = [
       icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
       type: 'Track3',
       content:
-        'Best third overall project of the hackathon will win some awesome prizes'
+        ''
     },
     {
       icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
       type: 'Track4',
       content:
-        'Best third overall project of the hackathon will win some awesome prizes'
+        ''
     }
   ],
 ];
