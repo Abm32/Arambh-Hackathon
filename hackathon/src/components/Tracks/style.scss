@@ -1,13 +1,27 @@
 
 
 .Track{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 260px;
+    border-radius: 18px;
     margin: 0 auto;
     text-align: center;
     margin-top: 1.7rem;
-    margin-left: 350px;
+    margin-left: 330px;
     background-color: #f3effe;
+    box-shadow: 10px 5px 5px #1791B1;
+}
+.Tra {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -39px;
+}
+.Tra2 {
+    width: 250px;
+    height: 90px;
 }
 .TrackHeading h1{
     font-size: 5rem;

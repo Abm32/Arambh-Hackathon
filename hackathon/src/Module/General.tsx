@@ -189,14 +189,14 @@ const Trackinfo = [
   [
     //Array 1
     {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: 'Track1',
+      icon: <i className="first fas fa-4x fa-book"></i>,
+      type: 'Education',
       content:
         ''
     },
     {
-      icon: <i className=" second fas fa-4x fa-medal"></i>,
-      type: 'Track2',
+      icon: <i className=" second fas fa-4x fa-hand-holding-heart"></i>,
+      type: 'Healthcare',
       content:
         ''
     },
@@ -207,14 +207,14 @@ const Tracksinfo = [
   [
     //Array 2
     {
-      icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: 'Track3',
+      icon: <i className=" third fas fa-4x fa-cog"></i>,
+      type: 'Productivity & Networking',
       content:
         ''
     },
     {
-      icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: 'Track4',
+      icon: <i className=" fourth fas fa-4x fa-globe"></i>,
+      type: 'Environment Sustainability',
       content:
         ''
     }
