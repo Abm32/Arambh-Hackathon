@@ -14,7 +14,7 @@
     text-align: left;
 }
 
-@media  (max-width: 570px){
+@media  (max-width: 573px){
     .typing-div h1{
         font-size: 3rem;
         font-weight: 700;

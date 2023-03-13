@@ -1,4 +1,4 @@
-import {SOCIALS} from '../../Module/General';
+import {TOP_SECTION} from '../../Module/General';
 import {Btn} from '../Landing/index.jsx';
 import './sponsors.scss';
 
@@ -18,11 +18,21 @@ function SponsorUS() {
   return (
     <div className="joinT sponsorUS">
       <h3>To be disclosed... </h3>
-      <a href={SOCIALS.email}>
-        <Btn className="sponsor_btn" type="Sponsor us" overlay="Send a mail" />
+      <a href={TOP_SECTION.JUDGES_FORM_LINK}>
+        <Btn className="sponsor_btn" type="Sponsor us" overlay="Fill the form" />
       </a>{' '}
     </div>
   );
 }
 
-export {SponsorsHead, Sponsor, SponsorUS};
+function Sponsorbtn() {
+  return (
+    <div className="joinT sponsorUS">
+        <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
+          <Btn className="sponsor_btn" type="Register" overlay="Fill the form" />
+        </a>{' '}
+    </div>
+  );
+}
+
+export {SponsorsHead, Sponsor, SponsorUS, Sponsorbtn};

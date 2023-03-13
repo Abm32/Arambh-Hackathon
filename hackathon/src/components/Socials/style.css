@@ -16,7 +16,7 @@
   color: white;
   top: -5px;
 }
-@media (max-width: 570px) {
+@media (max-width: 573px) {
   .single {
     display: inline-block;
     margin-top: 50px;

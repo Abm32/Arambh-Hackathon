@@ -42,16 +42,16 @@ const TOP_SECTION = {
   IMG_SRC: boy,
   DISCORD_LINK: '',
   JUDGES_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u',
+    'https://forms.gle/WHNwvTqyF6K6JDjr8',
   HACKERS_REGISTRATION_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u'
+    '#home'
 };
 
 const SOCIALS = {
   instagram: 'https://www.instagram.com/iedc_cek/',
   eventwb: 'https://arambh.iedccek.com/',
-  email: 'Iedccek+hackathon@gmail.com',
-  mail: 'Iedccek+hackathon@gmail.com'
+  email: "mailto:Iedccek+hackathon@gmail.com",
+  mailid: 'Iedccek+hackathon@gmail.com'
 };
 
 const MIDDLE_SECTION = {
@@ -64,11 +64,11 @@ const MIDDLE_SECTION = {
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u'
+    src: '#'
   },
   JOIN_TEAM: {
     required: true,
-    src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u'
+    src: '#'
   },
   Privacy_policy: {
     required: true,
@@ -185,6 +185,64 @@ const Prizeinfo = [
   ]
 ];
 
+const Trackinfo = [
+  [
+    //Array 1
+    {
+      icon: <i className="first fas fa-4x fa-trophy"></i>,
+      type: 'Track1',
+      content:
+        'First Overall prize will be given to a project that outstands all other submissions'
+    },
+    {
+      icon: <i className=" second fas fa-4x fa-medal"></i>,
+      type: 'Track2',
+      content:
+        'Second Overall prize will be given to the second best project of the hackathon'
+    },
+  ],
+];
+
+const Tracksinfo = [
+  [
+    //Array 2
+    {
+      icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
+      type: 'Track3',
+      content:
+        'Best third overall project of the hackathon will win some awesome prizes'
+    },
+    {
+      icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
+      type: 'Track4',
+      content:
+        'Best third overall project of the hackathon will win some awesome prizes'
+    }
+  ],
+];
+
+const Rulesinfo = [
+  [
+    //Array 1
+    {
+      
+      content:
+        '1.'
+    },
+    {
+    
+      content:
+        '2.'
+    },
+    {
+
+      content:
+        '3.'
+    }
+  ],
+  
+];
+
 /** Instructions
  * Insert only 3 or less then 3 members per array in `TeamInfo`, you can
  * create as many arrays you want all team members will be rendered
@@ -195,42 +253,18 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
+      name: 'Abhiram N J',
       role: 'Organizer',
-      github: 'https://github.com/Limbo-Hacks/Hackathon-website-template',
-      linkedin: '',
+      github: 'https://github.com/twilighty-abhi',
+      linkedin: 'https://www.linkedin.com/in/abhiram-n-j/',
       img: me
     },
     {
-      Name: 'Moon',
+      name: 'Anand S',
       role: 'Organizer',
-      github: '',
-      linkedin: '',
+      github: 'https://github.com/AnandSuresh02',
+      linkedin: 'https://www.linkedin.com/in/anand-s-41311a235/',
       img: moon
-    },
-    {
-      Name: 'Erika',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: Ryah
-    }
-  ],
-  [
-    //Array 2
-    {
-      Name: 'Lyanola',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: lyin
-    },
-    {
-      Name: 'Zoheb',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: zoha
     }
   ]
 ];
@@ -316,14 +350,14 @@ const frequentlyAskedQuestions = [
       {
         label: 'How team formation works?',
         content:
-          "You can form team with 2 - 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+          "You can form team with 2 - 4 members in it at maximum."
       }
     ],
     [
       {
         label: 'How to register myself in the hackathon?',
         content:
-          'All you need is to fill our form above and join Discord, we will guide you through everything there'
+          'All you need to do is to fill our form above and we will get you through everything remaining.'
       },
       {
         label: 'I have more questions?',
@@ -349,6 +383,9 @@ export {
   SOCIALS,
   FOOTER,
   Prizeinfo,
+  Trackinfo,
+  Tracksinfo,
+  Rulesinfo,
   sponsorLogos,
   TeamInfo,
   JudgesInfo,

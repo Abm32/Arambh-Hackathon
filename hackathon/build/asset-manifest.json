@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e76c49cd.css",
+    "main.js": "/static/js/main.71ec084c.js",
+    "static/media/pattern4.png": "/static/media/pattern4.d70898849577572cae6e.png",
+    "static/media/glimpse.png": "/static/media/glimpse.b6f31993d93b4c4d8647.png",
+    "static/media/boy.png": "/static/media/boy.9e16116bc4dbb678de51.png",
+    "static/media/lyin.jpg": "/static/media/lyin.ce4bedbc6aab997dcbd2.jpg",
+    "static/media/zoha.png": "/static/media/zoha.3b9b6b45947e0e25e763.png",
+    "static/media/hackathonLogo.png": "/static/media/hackathonLogo.5b1050fdb4257422583a.png",
+    "static/media/sublime.png": "/static/media/sublime.f9991326c955725e6cd3.png",
+    "static/media/1pass.png": "/static/media/1pass.5ab4b9e83e51280b9aa4.png",
+    "static/media/moon.png": "/static/media/moon.c0070a34b96b662e65b0.png",
+    "static/media/me.png": "/static/media/me.d1d8ced4abe23882ecb0.png",
+    "static/media/cfc.png": "/static/media/cfc.18f32e555acd7c579d4e.png",
+    "static/media/ll.png": "/static/media/ll.fd735495edacaf6f8afa.png",
+    "static/media/ACF.png": "/static/media/ACF.6971b9216f899217f6f9.png",
+    "static/media/Ryah.jpg": "/static/media/Ryah.6f561055ef47199d2d1b.jpg",
+    "static/media/replit.png": "/static/media/replit.3c3b0ba7bd703b54da03.png",
+    "static/media/interview-cake.jpg": "/static/media/interview-cake.37432cbbe1554960e4c7.jpg",
+    "static/media/echoAR.png": "/static/media/echoAR.4b8bc90d47db13fbb500.png",
+    "static/media/egg.png": "/static/media/egg.f445ea46b1d58f97bf5d.png",
+    "static/media/qoom.svg": "/static/media/qoom.fb09f9e699110b27aa3b0cfb174a5d35.svg",
+    "index.html": "/index.html",
+    "static/media/icons8-mail.svg": "/static/media/icons8-mail.650ff70b29a0d7a164b707e43c20be47.svg",
+    "static/media/icons8-instagram.svg": "/static/media/icons8-instagram.89b88306863c7e01b4d4730dde9b7b9c.svg",
+    "static/media/cross.svg": "/static/media/cross.cdc3eebf5ca8c6bac1335574dfa6e894.svg",
+    "static/media/ham-c.svg": "/static/media/ham-c.8ab7632d2e8f5e05abfb112d11ada71d.svg",
+    "static/media/ham.svg": "/static/media/ham.a63ab4de035aef5e3f6e82283f1bae0a.svg",
+    "main.e76c49cd.css.map": "/static/css/main.e76c49cd.css.map",
+    "main.71ec084c.js.map": "/static/js/main.71ec084c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e76c49cd.css",
+    "static/js/main.71ec084c.js"
+  ]
+}

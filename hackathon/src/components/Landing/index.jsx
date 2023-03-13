@@ -37,10 +37,7 @@ const Myinfo = () => {
       <p> {TOP_SECTION.SHORT_DESCRIPTION}</p>
       
       <div className="buttom-group">
-        <a href={TOP_SECTION.JUDGES_FORM_LINK}>
-          {' '}
-          <Btn class="sponsor_btn" type="Sponsors" overlay="Fill the form" />
-        </a>
+        
 
         <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
           {' '}
@@ -54,5 +51,6 @@ const Myinfo = () => {
     </div>
   );
 };
+
 
 export {Btn, Myinfo};

@@ -9,11 +9,14 @@ import Birds from '../../components/Animation';
 import Footer from '../../components/Footer/index.jsx';
 import {Myinfo} from '../../components/Landing/index.jsx';
 import {FirstPrize, PrizeHeading} from '../../components/Prizes/index.jsx';
+import {Rules, RuleHeading} from '../../components/Rules/index.jsx';
+import {Tracks, TrackHeading} from '../../components/Tracks/index.jsx';
 import Media from '../../components/Socials/index.jsx';
 import {
   Sponsor,
   SponsorsHead,
-  SponsorUS
+  SponsorUS,
+  Sponsorbtn
 } from '../../components/Sponsors/sponsors.jsx';
 import {JoinTeam, Member} from '../../components/Team';
 import {
@@ -21,6 +24,9 @@ import {
   frequentlyAskedQuestions,
   JudgesInfo,
   Prizeinfo,
+  Trackinfo,
+  Tracksinfo,
+  Rulesinfo,
   sponsorLogos,
   TeamInfo,
   TOP_SECTION
@@ -51,6 +57,32 @@ const PrizeGroup = (props, index) => {
         <Col key={i} className="" sm={12} lg={4} md={4}>
           <FirstPrize icon={s.icon} type={s.type} content={s.content} />
         </Col>
+      ))}
+    </Row>
+  );
+};
+
+// Track group
+const TrackGroup = (props, index) => {
+  return (
+    <Row key={index}>
+      {props.map((s, i) => (
+        <Col key={i} className="" sm={12} lg={4} md={4}>
+          <Tracks icon={s.icon} type={s.type} content={s.content} />
+        </Col>
+      ))}
+    </Row>
+  );
+};
+
+//Rules group
+const RulesGroup = (props, index) => {
+  return (
+    <Row key={index}>
+      {props.map((s, i) => (
+        <Row key={i} className="" sm={12} lg={4} md={4}>
+          <Rules content={s.content} />
+        </Row>
       ))}
     </Row>
   );
@@ -123,7 +155,28 @@ export default function HomePage() {
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
 
-        
+        {/* ********Tracks here ***** */}
+        <Row className="tracksection" id="tracks">
+          <TrackHeading type="Tracks" />
+          {Trackinfo.map(TrackGroup)}
+        </Row>
+        <Row className="tracksection" id="tracks">
+          {Tracksinfo.map(TrackGroup)}
+        </Row>
+
+        {/* ********Rules here ***** */}
+        <Row className="rulesection" id="rules">
+          <div class="sty">
+          <RuleHeading type="Rules" />
+          </div>
+          {Rulesinfo.map(RulesGroup)}
+          
+        </Row>
+        {/* ********Rules ending here ***** */}
+
+        <Row className="sponsorSection" id="">
+          <Sponsorbtn />
+        </Row>
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
@@ -135,7 +188,7 @@ export default function HomePage() {
         </Row>
         {/* ********Prizes ending here ***** */}
 
-      
+        
 
         {/* ********Sponsors here  {sponsorLogos.map(SponsorGroup)} ***** */}
 
