@@ -11,6 +11,7 @@
   align-items: center;
   text-align: center;
 }
+
 .neww {
   text-align: center;
   font-weight: 500;
@@ -96,7 +97,6 @@ h1 {
 }
 
 .tracksection {
-  text-align: center;
   margin: 0 auto;
   padding: 0 4vh 0 4vh;
   margin: 17vh 0vh 0 0vh;
@@ -131,6 +131,9 @@ h1 {
   .faqsSection {
     padding: 0;
     margin-top: 0vh;
+  }
+  .sty1 {
+    margin: 0 0 0 517px;
   }
   .members {
     margin: 0;

@@ -166,9 +166,8 @@ export default function HomePage() {
         <Row className="rulesection" id="rules">
           <div class="sty">
           <RuleHeading type="Rules" />
-          </div>
+          </div>  
           {Rulesinfo.map(RulesGroup)}
-          
         </Row>
         {/* ********Rules ending here ***** */}
 

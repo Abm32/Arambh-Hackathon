@@ -13,9 +13,10 @@ function Tracks(props) {
     <div className="Tracks">
     <div className="Track">
       <div className='Tra'>
-      {props.icon}
+        
       </div>
       <div className='Tra2'>
+        {props.icon}
         <h2>{props.type}</h2>
         <p>{props.content}</p>
       </div>

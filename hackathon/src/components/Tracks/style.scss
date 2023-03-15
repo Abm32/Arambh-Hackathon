@@ -7,13 +7,14 @@
     margin: 0 auto;
     text-align: center;
     margin-top: 1.7rem;
+    margin-bottom: 18px;
     margin-left: 330px;
     background-color: #f3effe;
     box-shadow: 10px 5px 5px #1791B1;
 }
 .Tra {
     width: 250px;
-    height: 150px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,4 +35,29 @@
 .Track p{
     color: #333;
     font-weight: 700;
+}
+
+@media  (max-width: 573px){
+    .Track {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: 5vh 0 0 0;
+        padding: 17vh 0 0 4vh;
+    }
+    .Track p{
+        margin: 5vh 0 0 0;
+        padding: 17vh 0 0 4vh;
+    }
+    .Tra {
+        margin: -24vh 22vh 0 0;
+        width: 270px;
+        height: 70px;
+    }
+    .Tra2 {
+        margin: -22vh 22vh 0 0;
+        width: 270px;
+        height: 90px;
+    }
 }
